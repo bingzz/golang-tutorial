@@ -27,4 +27,17 @@
 * float32 ->
 * float64 -> more accurate, but more memory
 
-Functions and Control Structures
+## Functions and Control Structures
+
+## Arrays
+
+* Fixed length
+* Same type
+* Indexable
+* Contiguous in Memory
+
+Ampersand (&) symbol -> memory location
+
+## Maps
+
+* Set of key value pairs to look up a value by its key
