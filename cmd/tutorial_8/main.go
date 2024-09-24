@@ -16,7 +16,7 @@ func main() {
 
 	for i := 0; i < len(dbData); i++ {
 		wg.Add(1)    // Add Counter
-		go dbCall(i) // execute concurrently
+		go dbCall(i) // execute concurrently (execute goroutine)
 	}
 
 	wg.Wait() // Waits until the counter sets to 0

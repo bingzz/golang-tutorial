@@ -18,7 +18,6 @@
 
 1. *go mod init* -> initialize a module
 
-
 ## Variable types
 
 * int
@@ -48,3 +47,21 @@ Asterisk (*) symbol -> Pointer
 
 * ASCII (7 bits) -> 128 chars
 * UTF-32(32 bits) -> 1,114,112 chars
+
+## GoRoutines
+
+* Calls multiple functions concurrently
+
+CONCURRENCY != PARALLEL EXECUTION
+
+Concurrency is to execute the function simultaneously on a single CPU while the parallel execution is executed simultaneously on different CPUs
+
+The more CPU, the faster the execution
+
+## Channels
+
+* Work with Goroutines to pass around data
+* Holds data
+* Thread safe (prevent data erasure)
+* Listen to Data
+* Best combined with goroutines
