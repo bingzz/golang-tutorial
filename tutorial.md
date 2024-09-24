@@ -38,6 +38,8 @@
 
 Ampersand (&) symbol -> memory location
 
+Asterisk (*) symbol -> Pointer
+
 ## Maps
 
 * Set of key value pairs to look up a value by its key
