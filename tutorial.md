@@ -41,3 +41,8 @@ Ampersand (&) symbol -> memory location
 ## Maps
 
 * Set of key value pairs to look up a value by its key
+
+## Character Encoding
+
+* ASCII (7 bits) -> 128 chars
+* UTF-32(32 bits) -> 1,114,112 chars
